@@ -56,11 +56,12 @@ Pengujian dilakukan pada masing-masing algoritma dengan:
   b. Per algoritma dan per ukuran data
 
 Cara Menjalankan Program
-1. Pastikan file `data_angka.txt` & `data_kata.txt`  berada di direktori yang sama dengan file .c
-2. Kompilasi program dengan cara ketik di terminal:
+1. Jalankan program generate_data.c untuk membuat data .txt yang dibutuhkan
+2. Pastikan file `data_angka.txt` & `data_kata.txt`  berada di direktori yang sama dengan file .c
+3. Kompilasi program utama dengan cara ketik di terminal:
    gcc main.c sort_algorithms.c -o (inisialisai)
    .(inisialisai)
-3. Setelah dijalankan program akan langsung melakukan sorting untuk kedua data .txt dan semua algoritma 
+4. Setelah dijalankan program akan langsung melakukan sorting untuk kedua data .txt dan semua algoritma 
 
 Output yang Ditampilkan
 - Waktu eksekusi setiap algoritma
